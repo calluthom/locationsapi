@@ -6,7 +6,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/locationdb');
+mongoose.connect('mongodb://heroku_04j13l6k:lluh5qmeirebeqctrb8rknjdca@ds111565.mlab.com:11565/heroku_04j13l6k');
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
