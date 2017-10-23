@@ -24,3 +24,9 @@ routes(app);
 
 
 app.listen(port);
+<<<<<<< HEAD
+=======
+
+
+console.log('locationsapi RESTful API server started on: ' + port);
+>>>>>>> 35b9d3b2f9abe33d37d34e9c5f68027c62712cf7
