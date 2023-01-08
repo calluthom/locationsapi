@@ -1,6 +1,6 @@
 # locationsapi
 
-This is a RESTful NodeJS Api for my travel mapping website, found here: https://cthomas818.github.io/
+This is a RESTful NodeJS Api for my travel mapping website
 
 The api contains the controllers, routes, and models for "locations", which are then implemented as markers on Google Maps. Each location has a name, a content or description string, latitude and longitude, and an id.
 
